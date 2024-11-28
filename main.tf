@@ -7,6 +7,6 @@ data "ibm_resource_instance" "testacc_ds_resource_instance" {
 data "ibm_cos_bucket" "standard-ams03" {
   bucket_name          = "sch-cos-cbr"
   resource_instance_id = data.ibm_resource_instance.testacc_ds_resource_instance.id
-  bucket_type          = "single_site_location"
+  bucket_type          = "cross_region_location"
   bucket_region        = "us-geo"
 }
