@@ -1,7 +1,7 @@
 data "ibm_resource_instance" "testacc_ds_resource_instance" {
-  name              = "cos-instance"
+  name              = "cos-cbr-test"
   location          = "global"
-  resource_group_id = "b180729994c44e88b682384025cfd7f8"
+  resource_group_id = "7aecd76f87f54ac0876e2f72f88ccb24"
 }
 
 data "ibm_cos_bucket" "standard-ams03" {
