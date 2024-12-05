@@ -1,6 +1,6 @@
-#provider "ibm" {
-#  visibility = "private"
-#}
+provider "ibm" {
+  visibility = "private"
+}
 
 terraform {
   required_providers {
