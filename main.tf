@@ -39,5 +39,4 @@ data "ibm_cos_bucket" "standard-ams03" {
   resource_instance_id = "crn:v1:bluemix:public:cloud-object-storage:global:a/ab3ed67929c2a81285fbb5f9eb22800a:1802f308-f656-4c8f-8a3a-b732946eaf02::"
   bucket_type          = "cross_region_location"
   bucket_region        = "us-geo"
-  endpoint_type        = "private"
 }
